@@ -35,7 +35,6 @@ query($login: String!) {
     login name createdAt
     followers { totalCount }
     following { totalCount }
-    gists { totalCount }
     repositories(first: 100, ownerAffiliations: OWNER, privacy: PUBLIC, orderBy: { field: STARGAZERS, direction: DESC }) {
       totalCount
       pageInfo { hasNextPage endCursor }
@@ -175,7 +174,6 @@ async function main() {
       createdAt: string
       followers: { totalCount: number }
       following: { totalCount: number }
-      gists: { totalCount: number }
       repositories: { totalCount: number; pageInfo: { hasNextPage: boolean; endCursor: string }; nodes: GqlRepo[] }
       pinnedItems: { nodes: { name: string; description: string | null; url: string; stargazerCount: number; primaryLanguage: { name: string } | null }[] }
       contributionsCollection: {
@@ -246,7 +244,7 @@ async function main() {
       createdAt: user.createdAt,
       followers: user.followers.totalCount,
       following: user.following.totalCount,
-      gists: user.gists.totalCount,
+      gists: 0,
     },
     repos: {
       total: user.repositories.totalCount,
