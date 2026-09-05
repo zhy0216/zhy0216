@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-04T07:57:26.003Z",
+  "fetchedAt": "2026-09-05T07:39:07.738Z",
   "user": {
     "login": "zhy0216",
     "name": "Yang Zhang",
@@ -9,8 +9,8 @@
     "gists": 0
   },
   "repos": {
-    "total": 113,
-    "original": 73,
+    "total": 114,
+    "original": 74,
     "forks": 40,
     "archived": 1,
     "stars": 253,
@@ -162,6 +162,17 @@
         "pushedAt": "2013-12-20T05:13:06Z"
       },
       {
+        "name": "instagent",
+        "description": null,
+        "stars": 0,
+        "forks": 0,
+        "language": "Rust",
+        "isFork": false,
+        "isArchived": false,
+        "createdAt": "2026-09-02T15:59:43Z",
+        "pushedAt": "2026-09-05T05:53:59Z"
+      },
+      {
         "name": "skills",
         "description": null,
         "stars": 0,
@@ -181,7 +192,7 @@
         "isFork": false,
         "isArchived": false,
         "createdAt": "2026-09-02T12:38:37Z",
-        "pushedAt": "2026-09-03T08:01:30Z"
+        "pushedAt": "2026-09-04T07:57:27Z"
       },
       {
         "name": "herdr",
@@ -203,7 +214,7 @@
         "isFork": false,
         "isArchived": false,
         "createdAt": "2026-08-28T00:49:45Z",
-        "pushedAt": "2026-09-03T15:04:43Z"
+        "pushedAt": "2026-09-05T06:24:46Z"
       },
       {
         "name": "herdr-gh-checks",
@@ -214,7 +225,7 @@
         "isFork": true,
         "isArchived": false,
         "createdAt": "2026-08-26T12:54:48Z",
-        "pushedAt": "2026-08-27T00:47:30Z"
+        "pushedAt": "2026-09-05T07:03:47Z"
       },
       {
         "name": "nng4-game",
@@ -247,7 +258,7 @@
         "isFork": false,
         "isArchived": false,
         "createdAt": "2026-06-06T03:30:05Z",
-        "pushedAt": "2026-09-03T08:10:44Z"
+        "pushedAt": "2026-09-05T07:11:25Z"
       },
       {
         "name": "browser-run",
@@ -1267,31 +1278,31 @@
     {
       "name": "JavaScript",
       "color": "#f1e05a",
-      "bytes": 67723164,
-      "share": 48.8
+      "bytes": 68045148,
+      "share": 48.4
     },
     {
       "name": "TypeScript",
       "color": "#3178c6",
-      "bytes": 33913487,
-      "share": 24.4
+      "bytes": 33930542,
+      "share": 24.2
     },
     {
       "name": "Go",
       "color": "#00ADD8",
       "bytes": 21330798,
-      "share": 15.4
+      "share": 15.2
     },
     {
       "name": "Rust",
       "color": "#dea584",
-      "bytes": 4033417,
-      "share": 2.9
+      "bytes": 5419579,
+      "share": 3.9
     },
     {
       "name": "Python",
       "color": "#3572A5",
-      "bytes": 3326218,
+      "bytes": 3342141,
       "share": 2.4
     },
     {
@@ -1314,18 +1325,18 @@
     }
   ],
   "contributions": {
-    "total": 2949,
-    "commits": 1481,
-    "prs": 7,
+    "total": 3025,
+    "commits": 1609,
+    "prs": 10,
     "issues": 0,
     "reviews": 0,
-    "restricted": 1415,
+    "restricted": 1359,
     "busiest": {
       "date": "2026-05-16",
       "count": 195
     },
     "longestStreak": 24,
-    "currentStreak": 17,
+    "currentStreak": 18,
     "weeks": [
       {
         "days": [
@@ -3379,13 +3390,18 @@
           },
           {
             "date": "2026-09-03",
-            "count": 90,
+            "count": 91,
             "level": 4
           },
           {
             "date": "2026-09-04",
-            "count": 16,
-            "level": 1
+            "count": 54,
+            "level": 4
+          },
+          {
+            "date": "2026-09-05",
+            "count": 37,
+            "level": 3
           }
         ]
       }
