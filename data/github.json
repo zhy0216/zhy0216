@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-09-06T07:53:13.693Z",
+  "fetchedAt": "2026-09-07T08:16:06.146Z",
   "user": {
     "login": "zhy0216",
     "name": "Yang Zhang",
     "createdAt": "2011-07-08T23:22:53Z",
-    "followers": 56,
+    "followers": 57,
     "following": 201,
     "gists": 0
   },
@@ -170,7 +170,7 @@
         "isFork": false,
         "isArchived": false,
         "createdAt": "2026-09-05T10:46:41Z",
-        "pushedAt": "2026-09-05T13:26:43Z"
+        "pushedAt": "2026-09-06T12:17:50Z"
       },
       {
         "name": "instagent",
@@ -181,7 +181,7 @@
         "isFork": false,
         "isArchived": false,
         "createdAt": "2026-09-02T15:59:43Z",
-        "pushedAt": "2026-09-05T10:36:43Z"
+        "pushedAt": "2026-09-06T12:56:10Z"
       },
       {
         "name": "skills",
@@ -192,7 +192,7 @@
         "isFork": false,
         "isArchived": false,
         "createdAt": "2026-09-02T14:57:24Z",
-        "pushedAt": "2026-09-05T13:09:22Z"
+        "pushedAt": "2026-09-07T02:02:32Z"
       },
       {
         "name": "zhy0216",
@@ -203,7 +203,7 @@
         "isFork": false,
         "isArchived": false,
         "createdAt": "2026-09-02T12:38:37Z",
-        "pushedAt": "2026-09-05T07:39:09Z"
+        "pushedAt": "2026-09-06T07:53:15Z"
       },
       {
         "name": "herdr",
@@ -269,7 +269,7 @@
         "isFork": false,
         "isArchived": false,
         "createdAt": "2026-06-06T03:30:05Z",
-        "pushedAt": "2026-09-05T13:15:31Z"
+        "pushedAt": "2026-09-07T06:27:50Z"
       },
       {
         "name": "browser-run",
@@ -291,7 +291,7 @@
         "isFork": false,
         "isArchived": false,
         "createdAt": "2026-05-08T13:27:00Z",
-        "pushedAt": "2026-05-29T14:22:00Z"
+        "pushedAt": "2026-09-07T02:38:54Z"
       },
       {
         "name": "player",
@@ -1270,7 +1270,7 @@
         "isFork": false,
         "isArchived": false,
         "createdAt": "2015-12-19T23:47:01Z",
-        "pushedAt": "2026-08-25T14:16:11Z"
+        "pushedAt": "2026-09-06T08:02:53Z"
       },
       {
         "name": "lianliankan",
@@ -1289,26 +1289,26 @@
     {
       "name": "JavaScript",
       "color": "#f1e05a",
-      "bytes": 68107300,
-      "share": 48.2
+      "bytes": 68108507,
+      "share": 48
     },
     {
       "name": "TypeScript",
       "color": "#3178c6",
-      "bytes": 34793549,
-      "share": 24.6
+      "bytes": 35150106,
+      "share": 24.8
     },
     {
       "name": "Go",
       "color": "#00ADD8",
       "bytes": 21330798,
-      "share": 15.1
+      "share": 15
     },
     {
       "name": "Rust",
       "color": "#dea584",
-      "bytes": 5440593,
-      "share": 3.8
+      "bytes": 5609250,
+      "share": 4
     },
     {
       "name": "Python",
@@ -1336,18 +1336,18 @@
     }
   ],
   "contributions": {
-    "total": 3090,
-    "commits": 1673,
+    "total": 3117,
+    "commits": 1713,
     "prs": 10,
     "issues": 0,
     "reviews": 0,
-    "restricted": 1359,
+    "restricted": 1346,
     "busiest": {
       "date": "2026-05-16",
       "count": 195
     },
     "longestStreak": 24,
-    "currentStreak": 19,
+    "currentStreak": 20,
     "weeks": [
       {
         "days": [
@@ -3381,7 +3381,12 @@
         "days": [
           {
             "date": "2026-09-06",
-            "count": 3,
+            "count": 45,
+            "level": 2
+          },
+          {
+            "date": "2026-09-07",
+            "count": 7,
             "level": 1
           }
         ]
