@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-09T08:07:28.246Z",
+  "fetchedAt": "2026-09-10T08:06:27.572Z",
   "user": {
     "login": "zhy0216",
     "name": "Yang Zhang",
@@ -9,9 +9,9 @@
     "gists": 0
   },
   "repos": {
-    "total": 115,
+    "total": 116,
     "original": 75,
-    "forks": 40,
+    "forks": 41,
     "archived": 1,
     "stars": 253,
     "firstYear": 2013,
@@ -162,6 +162,17 @@
         "pushedAt": "2013-12-20T05:13:06Z"
       },
       {
+        "name": "collie",
+        "description": "PWA to manage 🐑 herdr on the go. Tailnet accessible, push notifications, quick actions and more.",
+        "stars": 0,
+        "forks": 0,
+        "language": "TypeScript",
+        "isFork": true,
+        "isArchived": false,
+        "createdAt": "2026-09-10T06:05:13Z",
+        "pushedAt": "2026-09-09T22:14:43Z"
+      },
+      {
         "name": "agent-flow",
         "description": null,
         "stars": 0,
@@ -192,7 +203,7 @@
         "isFork": false,
         "isArchived": false,
         "createdAt": "2026-09-02T14:57:24Z",
-        "pushedAt": "2026-09-09T00:34:09Z"
+        "pushedAt": "2026-09-10T01:26:55Z"
       },
       {
         "name": "zhy0216",
@@ -203,7 +214,7 @@
         "isFork": false,
         "isArchived": false,
         "createdAt": "2026-09-02T12:38:37Z",
-        "pushedAt": "2026-09-08T08:03:40Z"
+        "pushedAt": "2026-09-09T08:07:29Z"
       },
       {
         "name": "herdr",
@@ -1295,8 +1306,8 @@
     {
       "name": "TypeScript",
       "color": "#3178c6",
-      "bytes": 35823352,
-      "share": 25
+      "bytes": 35937757,
+      "share": 25.1
     },
     {
       "name": "Go",
@@ -1336,18 +1347,18 @@
     }
   ],
   "contributions": {
-    "total": 3216,
-    "commits": 1774,
+    "total": 3236,
+    "commits": 1777,
     "prs": 11,
     "issues": 0,
     "reviews": 0,
-    "restricted": 1383,
+    "restricted": 1399,
     "busiest": {
       "date": "2026-05-16",
       "count": 195
     },
     "longestStreak": 24,
-    "currentStreak": 21,
+    "currentStreak": 23,
     "weeks": [
       {
         "days": [
@@ -3391,13 +3402,18 @@
           },
           {
             "date": "2026-09-08",
-            "count": 61,
+            "count": 70,
             "level": 3
           },
           {
             "date": "2026-09-09",
-            "count": 0,
-            "level": 0
+            "count": 10,
+            "level": 1
+          },
+          {
+            "date": "2026-09-10",
+            "count": 1,
+            "level": 1
           }
         ]
       }
