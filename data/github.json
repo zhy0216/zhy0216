@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-21T08:54:32.550Z",
+  "fetchedAt": "2026-09-22T06:05:04.226Z",
   "user": {
     "login": "zhy0216",
     "name": "Yang Zhang",
@@ -236,7 +236,7 @@
         "isFork": false,
         "isArchived": false,
         "createdAt": "2026-09-02T15:59:43Z",
-        "pushedAt": "2026-09-19T13:15:31Z"
+        "pushedAt": "2026-09-21T14:28:07Z"
       },
       {
         "name": "skills",
@@ -247,7 +247,7 @@
         "isFork": false,
         "isArchived": false,
         "createdAt": "2026-09-02T14:57:24Z",
-        "pushedAt": "2026-09-21T01:12:48Z"
+        "pushedAt": "2026-09-21T15:24:28Z"
       },
       {
         "name": "zhy0216",
@@ -258,7 +258,7 @@
         "isFork": false,
         "isArchived": false,
         "createdAt": "2026-09-02T12:38:37Z",
-        "pushedAt": "2026-09-20T08:33:37Z"
+        "pushedAt": "2026-09-22T06:04:46Z"
       },
       {
         "name": "herdr",
@@ -1325,7 +1325,7 @@
         "isFork": false,
         "isArchived": false,
         "createdAt": "2015-12-19T23:47:01Z",
-        "pushedAt": "2026-09-06T08:02:53Z"
+        "pushedAt": "2026-09-22T05:53:36Z"
       },
       {
         "name": "lianliankan",
@@ -1344,13 +1344,13 @@
     {
       "name": "JavaScript",
       "color": "#f1e05a",
-      "bytes": 68456208,
+      "bytes": 68458008,
       "share": 47.3
     },
     {
       "name": "TypeScript",
       "color": "#3178c6",
-      "bytes": 36016040,
+      "bytes": 36022226,
       "share": 24.9
     },
     {
@@ -1391,18 +1391,18 @@
     }
   ],
   "contributions": {
-    "total": 3872,
-    "commits": 1885,
+    "total": 3923,
+    "commits": 1890,
     "prs": 13,
     "issues": 0,
     "reviews": 0,
-    "restricted": 1925,
+    "restricted": 1971,
     "busiest": {
       "date": "2026-05-16",
       "count": 195
     },
-    "longestStreak": 56,
-    "currentStreak": 56,
+    "longestStreak": 57,
+    "currentStreak": 57,
     "weeks": [
       {
         "days": [
@@ -3441,7 +3441,12 @@
           },
           {
             "date": "2026-09-21",
-            "count": 24,
+            "count": 52,
+            "level": 2
+          },
+          {
+            "date": "2026-09-22",
+            "count": 23,
             "level": 1
           }
         ]
