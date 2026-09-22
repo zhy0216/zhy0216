@@ -1,10 +1,11 @@
 import type { ReactElement } from 'react'
 import { SITE, BLOG, GITHUB, LINKEDIN, type Theme } from './theme'
-import { PROJECTS, WORK, LAB, NOTES, HEADER, FOOTER } from './content'
+import { PROJECTS, WORK, STEAM, LAB, NOTES, HEADER, FOOTER } from './content'
 import { fmt, pad2 } from './text'
 import { Header } from './sections/Header'
 import { Divider } from './sections/Divider'
 import { WorkCard } from './sections/WorkCard'
+import { SteamCard } from './sections/SteamCard'
 import { Lab } from './sections/Lab'
 import { NoteRow } from './sections/NoteRow'
 import { Footer } from './sections/Footer'
@@ -41,6 +42,8 @@ export function page(data: Data): Row[] {
       })),
     )
   }
+
+  rows.push(full('steam.svg', `${STEAM.title} — ${STEAM.description} ${STEAM.cta}.`, STEAM.href, (t) => <SteamCard theme={t} />))
 
   rows.push(full('divider-lab.svg', `${LAB.index} — ${LAB.title}`, `${GITHUB}?tab=repositories`, (t) => <Divider index={LAB.index} title={LAB.title} meta={`${fmt(data.repos.total)} PUBLIC REPOSITORIES · SINCE ${data.repos.firstYear}`} theme={t} />))
   rows.push(full('lab.svg', `The open lab — ${fmt(data.contributions.total)} contributions in the last year, languages and activity`, `${GITHUB}?tab=repositories`, (t) => <Lab data={data} theme={t} />))

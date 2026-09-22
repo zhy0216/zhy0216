@@ -13,8 +13,11 @@ const picture = (b: Block) =>
 
 const block = (b: Block) => (b.href ? `<a href="${b.href}">${picture(b)}</a>` : picture(b))
 
-/** Two cards on one line are separated by a single space — the only gap GitHub allows. */
-const row = (r: Row) => r.map(block).join(' ')
+/** Paragraph spacing keeps project rows apart; HTML collapses source newlines. */
+const row = (r: Row) => {
+  const content = r.map(block).join(' ')
+  return r.some((b) => b.width === '49.5%') ? `<p>${content}</p>` : content
+}
 
 export function readme(data: Data, rows: Row[]): string {
   return `<!--
@@ -40,6 +43,8 @@ ${rows.map(row).join('\n')}
 <summary>How this page is built</summary>
 
 Every block above is a React component rendered to a static, self-contained SVG: fonts are inlined, motion is SMIL, and there is no JavaScript, so it animates inside GitHub's \`<img>\` sandbox. Each block is rendered twice and served through \`<picture>\`, so it follows your GitHub colour mode.
+
+The Steam card links to the game's store page and embeds a local copy of its artwork. GitHub READMEs do not support Steam's interactive iframe widget; the card's copy lives in \`src/content.ts\` and its artwork in \`src/images/\`.
 
 \`\`\`sh
 bun install

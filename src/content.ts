@@ -81,6 +81,13 @@ export const WORK = {
   meta: 'MORE AT ZHY0216.GITHUB.IO/WORK',
 }
 
+export const STEAM = {
+  title: 'Three Kingdoms: Spire of War',
+  description: 'A Three Kingdoms deckbuilding roguelike. Command legendary heroes, build your deck, and fight through four acts.',
+  href: 'https://store.steampowered.com/app/5268460/',
+  cta: 'View on Steam',
+}
+
 export const LAB = {
   index: '02',
   title: 'The open lab',
