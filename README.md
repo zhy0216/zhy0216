@@ -41,6 +41,6 @@ bun run build    # src/ → assets/{light,dark}/*.svg + this README
 bun run preview  # preview/light.html + preview/dark.html, as GitHub renders them
 ```
 
-A GitHub Action re-runs the pipeline every day so the calendar, the counters and the notes stay current. Snapshot: 2026-09-27.
+A GitHub Action re-runs the pipeline every day so the calendar, the counters and the notes stay current. Snapshot: 2026-09-28.
 
 </details>
