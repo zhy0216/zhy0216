@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-21T08:32:23.089Z",
+  "fetchedAt": "2026-10-22T08:34:35.817Z",
   "user": {
     "login": "zhy0216",
     "name": "Yang Zhang",
@@ -13,7 +13,7 @@
     "original": 77,
     "forks": 43,
     "archived": 1,
-    "stars": 254,
+    "stars": 253,
     "firstYear": 2013,
     "lastYear": 2026,
     "languageCount": 14,
@@ -21,7 +21,7 @@
       {
         "name": "OhMyPocket",
         "description": "bookmark your favorit article ",
-        "stars": 226,
+        "stars": 225,
         "forks": 20,
         "language": "JavaScript",
         "isFork": false,
@@ -258,7 +258,7 @@
         "isFork": false,
         "isArchived": false,
         "createdAt": "2026-09-02T12:38:37Z",
-        "pushedAt": "2026-10-20T08:29:57Z"
+        "pushedAt": "2026-10-21T08:32:24Z"
       },
       {
         "name": "herdr",
@@ -1391,18 +1391,18 @@
     }
   ],
   "contributions": {
-    "total": 4595,
+    "total": 4604,
     "commits": 1902,
     "prs": 13,
     "issues": 1,
     "reviews": 0,
-    "restricted": 2630,
+    "restricted": 2639,
     "busiest": {
       "date": "2026-05-16",
       "count": 195
     },
     "longestStreak": 61,
-    "currentStreak": 24,
+    "currentStreak": 25,
     "weeks": [
       {
         "days": [
@@ -3451,7 +3451,12 @@
           },
           {
             "date": "2026-10-21",
-            "count": 4,
+            "count": 10,
+            "level": 1
+          },
+          {
+            "date": "2026-10-22",
+            "count": 3,
             "level": 1
           }
         ]
