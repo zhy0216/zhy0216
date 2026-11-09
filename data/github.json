@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-07T10:03:11.493Z",
+  "fetchedAt": "2026-11-09T11:27:38.035Z",
   "user": {
     "login": "zhy0216",
     "name": "Yang Zhang",
@@ -243,11 +243,11 @@
         "description": null,
         "stars": 0,
         "forks": 0,
-        "language": "Python",
+        "language": "HTML",
         "isFork": false,
         "isArchived": false,
         "createdAt": "2026-09-02T14:57:24Z",
-        "pushedAt": "2026-10-12T06:06:14Z"
+        "pushedAt": "2026-11-08T08:02:45Z"
       },
       {
         "name": "zhy0216",
@@ -258,7 +258,7 @@
         "isFork": false,
         "isArchived": false,
         "createdAt": "2026-09-02T12:38:37Z",
-        "pushedAt": "2026-11-06T10:49:49Z"
+        "pushedAt": "2026-11-07T10:03:12Z"
       },
       {
         "name": "herdr",
@@ -720,7 +720,7 @@
         "isFork": false,
         "isArchived": false,
         "createdAt": "2025-08-19T14:58:14Z",
-        "pushedAt": "2025-09-08T14:18:32Z"
+        "pushedAt": "2026-11-08T01:19:59Z"
       },
       {
         "name": "extract-html",
@@ -1344,32 +1344,32 @@
     {
       "name": "JavaScript",
       "color": "#f1e05a",
-      "bytes": 68458008,
+      "bytes": 70173972,
       "share": 47.3
     },
     {
       "name": "TypeScript",
       "color": "#3178c6",
-      "bytes": 36022226,
-      "share": 24.9
+      "bytes": 36044860,
+      "share": 24.3
     },
     {
       "name": "Go",
       "color": "#00ADD8",
       "bytes": 21443039,
-      "share": 14.8
+      "share": 14.4
     },
     {
       "name": "Rust",
       "color": "#dea584",
       "bytes": 6585458,
-      "share": 4.6
+      "share": 4.4
     },
     {
       "name": "Python",
       "color": "#3572A5",
-      "bytes": 3581071,
-      "share": 2.5
+      "bytes": 3633646,
+      "share": 2.4
     },
     {
       "name": "C",
@@ -1384,65 +1384,26 @@
       "share": 1.8
     },
     {
-      "name": "Jupyter Notebook",
-      "color": "#DA5B0B",
-      "bytes": 984194,
-      "share": 0.7
+      "name": "HTML",
+      "color": "#e34c26",
+      "bytes": 2185470,
+      "share": 1.5
     }
   ],
   "contributions": {
-    "total": 4765,
-    "commits": 1902,
+    "total": 4757,
+    "commits": 1890,
     "prs": 13,
     "issues": 1,
     "reviews": 0,
-    "restricted": 2800,
+    "restricted": 2805,
     "busiest": {
       "date": "2026-05-16",
       "count": 195
     },
     "longestStreak": 61,
-    "currentStreak": 41,
+    "currentStreak": 43,
     "weeks": [
-      {
-        "days": [
-          {
-            "date": "2025-11-02",
-            "count": 2,
-            "level": 1
-          },
-          {
-            "date": "2025-11-03",
-            "count": 0,
-            "level": 0
-          },
-          {
-            "date": "2025-11-04",
-            "count": 0,
-            "level": 0
-          },
-          {
-            "date": "2025-11-05",
-            "count": 0,
-            "level": 0
-          },
-          {
-            "date": "2025-11-06",
-            "count": 0,
-            "level": 0
-          },
-          {
-            "date": "2025-11-07",
-            "count": 0,
-            "level": 0
-          },
-          {
-            "date": "2025-11-08",
-            "count": 16,
-            "level": 1
-          }
-        ]
-      },
       {
         "days": [
           {
@@ -3467,6 +3428,20 @@
           {
             "date": "2026-11-07",
             "count": 1,
+            "level": 1
+          }
+        ]
+      },
+      {
+        "days": [
+          {
+            "date": "2026-11-08",
+            "count": 5,
+            "level": 1
+          },
+          {
+            "date": "2026-11-09",
+            "count": 5,
             "level": 1
           }
         ]
