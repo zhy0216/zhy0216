@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-11-23T12:32:16.917Z",
+  "fetchedAt": "2026-11-24T13:39:16.008Z",
   "user": {
     "login": "zhy0216",
     "name": "Yang Zhang",
     "createdAt": "2011-07-08T23:22:53Z",
-    "followers": 59,
+    "followers": 58,
     "following": 201,
     "gists": 0
   },
@@ -258,7 +258,7 @@
         "isFork": false,
         "isArchived": false,
         "createdAt": "2026-09-02T12:38:37Z",
-        "pushedAt": "2026-11-22T11:18:57Z"
+        "pushedAt": "2026-11-23T12:32:18Z"
       },
       {
         "name": "herdr",
@@ -1402,7 +1402,7 @@
       "count": 195
     },
     "longestStreak": 61,
-    "currentStreak": 1,
+    "currentStreak": 0,
     "weeks": [
       {
         "days": [
@@ -3441,6 +3441,11 @@
           },
           {
             "date": "2026-11-23",
+            "count": 0,
+            "level": 0
+          },
+          {
+            "date": "2026-11-24",
             "count": 0,
             "level": 0
           }
